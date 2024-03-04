@@ -7,8 +7,50 @@
 
     <!-- tailwind css link -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <!-- header section code start here  -->
+    <header class="w-full h-screen bg-no-repeat bg-cover" style="background-image:linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.281)), url(./image/banner-2.avif);">
+        <div class="container mx-auto">
+            <nav class="text-white flex flex-row justify-between items-center py-7 lg:px-0 px-6">
+
+                <div>
+                    <img src="./image/logo.svg" alt="">
+                </div>
+
+                <ul class="flex flex-row lg:space-x-10 md:space-x-10 space-x-4">
+                    <li class="text-lg font-semibold cursor-pointer">Home</li>
+                    <li class="text-lg font-semibold text-neutral-400 hover:text-white cursor-pointer lg:block hidden">Explore</li>
+                    <li class="text-lg font-semibold text-neutral-400 hover:text-white cursor-pointer lg:block hidden">Community</li>
+                    <li class="text-lg font-semibold text-neutral-400 hover:text-white cursor-pointer">Pages</li>
+                    <li class="text-lg font-semibold text-neutral-400 hover:text-white cursor-pointer lg:block hidden">Support</li>
+                </ul>
+
+                <div class="lg:flex md:block hidden items-center space-x-6">
+                    <i class="text-xl fa-solid fa-magnifying-glass"></i>
+                    <button class="border-2 px-6 py-2 font-bold hover:bg-sky-700 text-xl cursor-pointer"><i class="mr-2 fa-solid fa-wallet"></i> Wallet Connect</button>
+                </div>
+            </nav>
+
+            <!-- banner section code start here  -->
+           <div class="flex lg:flex-row md:flex-row flex-col-reverse justify-center items-center lg:space-x-60 md:space-x-16 space-x-0 lg:text-left md:text-left text-center lg:px-0 md:px-6 px-0 lg:mt-4 md:mt-16 mt-0">
+            <div class="text-white lg:w-[490px] w-[90%]">
+                <h2 class="lg:text-5xl text-2xl font-bold">Tailwind Template for NFT Marketplace and Web3 Platforms</h2>
+                <p class="lg:text-lg text-sm lg:my-7 my-3">Template for NFT, Token, and Web3 marketplace projects, based on Tailwind CSS. Comes with all the essential UI components and pages you need to build an NFT marketplace or all sorts of Web3 platforms.</p>
+                <button class="bg-sky-600 hover:bg-sky-800 duration-200 font-semibold px-7 lg:py-3 py-1 rounded-md">Explore now</button>
+                <button class="border-4 hover:bg-sky-600 duration-200 font-semibold  px-7 lg:py-2 py-1 lg:ml-3 ml-0 lg:mt-0 mt-4 rounded-md">Upload Your Art</button>
+            </div>
+            <div class="">
+                <img class="lg:w-[490px] md:w-[90%]  w-[50%] lg:mx-0 mx-auto" src="./image/hero-image.svg" alt="">
+            </div>
+           </div>
+        </div>
+    </header>
+    <!-- main section code start here  -->
+    <main></main>
 </body>
 </html>
